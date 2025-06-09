@@ -1,0 +1,19 @@
+Steps To solving problems using algorithm:
+
+1) State the problem clearly. Identify input and output formats.
+	i)Write the problem
+	ii)Write the function with parameters
+2)Come up with some example input and output. Try to cover all edge cases.
+	i) Print the results to better understand how the params work.
+	ii) Use Test Cases as dictionaries and try to cover all possible variations that may be encountered.
+3)Come up with a correct solution in plain English.
+	i)Implement the solution and test it using examples. Fix bugs, if any.
+	ii) For testing: !pip install jovian --upgrade --quiet
+			 from jovian.pythondsa import evaluate_test_cases
+			 evaluate_test_cases(locate_card,test)
+	iii)If there are errors print the inputs and the values of variables.
+	cards6 = tests[6]['input']['cards']
+	query6 = tests[6]['input']['query']
+
+	locate_card(cards6, query6)
+	evaluate_test_cases(locate_card, tests)
